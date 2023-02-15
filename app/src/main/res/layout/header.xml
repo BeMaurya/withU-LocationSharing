@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:id="@+id/nav_header"
+    android:padding="16dp"
+    android:background="@color/splcolor"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/user"
+        android:layout_marginLeft="20dp">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/acme"
+        android:hint="Name"
+        android:text="Utpal Anand"
+        android:textColor="@color/black"
+        android:textSize="24sp"></TextView>
+
+</LinearLayout>

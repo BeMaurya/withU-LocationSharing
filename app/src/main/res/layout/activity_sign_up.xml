@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent"
+    android:background="#FBFBFB"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="282dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/loc11" />
+
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up To Continue"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/abril_fatface"
+        android:textAlignment="center"
+        />-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="411dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="110dp"
+            android:id="@+id/ppicture"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/defaultpic">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <EditText
+            android:id="@+id/fnm"
+            android:layout_width="359dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:height="20dp"
+            android:background="@drawable/inputsignup"
+            android:ems="10"
+            android:hint="First Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp" />
+
+        <EditText
+            android:id="@+id/lnm"
+            android:layout_width="359dp"
+            android:layout_weight="1"
+            android:layout_height="53dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/inputsignup"
+            android:ems="10"
+            android:hint="Last Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="359dp"
+            android:layout_weight="1"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/inputsignup"
+            android:ems="10"
+            android:hint="Email Id"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="359dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/inputsignup"
+            android:drawableEnd="@drawable/eyeoff"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:longClickable="false"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp">
+
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/cnfpass"
+            android:layout_width="359dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/inputsignup"
+            android:drawableRight="@drawable/eyeoff"
+            android:ems="10"
+
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:longClickable="false"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/submit"
+            android:layout_width="359dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/splcolor"
+            android:text="Submit"
+            app:shapeAppearanceOverlay="@style/roundimageview" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
